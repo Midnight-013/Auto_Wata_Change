@@ -1,0 +1,18 @@
+# Visual Studio Code working folder
+.vscode/*
+
+# Ignore build folder
+build/*
+
+# Except for these files, which are useful to share with the team:
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+# Ignore ESP-IDF Files
+sdkconfig
